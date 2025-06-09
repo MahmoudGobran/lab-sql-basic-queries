@@ -47,7 +47,7 @@ WHERE first_name = 'SCARLETT';
 SELECT * FROM film
 WHERE title LIKE '%ARMAGEDDON%' AND length > 100;
 
--- 7.3 Number of films with Behind the Scenes content
+-- 7.3 Number of films with Behind the Scenes content--
 SELECT COUNT(*) AS behind_scenes_films
 FROM film
 WHERE special_features LIKE '%Behind the Scenes%';
